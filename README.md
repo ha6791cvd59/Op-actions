@@ -18,6 +18,7 @@ Build OpenWrt using GitHub Actions
 ### Tips
 
 唯一命令
+
 ctrl + C
 
 cd openwrt && make menuconfig
