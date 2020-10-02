@@ -14,7 +14,6 @@ git clone https://github.com/honwen/luci-app-aliddns.git package/luci-app-aliddn
 git clone -b master https://github.com/vernesong/OpenClash package/OpenClash
 git clone https://github.com/xiaorouji/openwrt-package.git package/Lienol
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-#git clone https://github.com/fw876/helloworld.git package/helloworld
 svn co https://github.com/pkpkgtr1/pkpkgtr-openwrt-package/trunk/luci-app-advancedsetting package/luci-app-advancedsetting
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
 git clone https://github.com/fw876/helloworld.git package/helloworld
@@ -22,8 +21,11 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jerryk
 
 #================================================= 主题
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-ifit package/luci-theme-ifit
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial package/luci-theme-atmaterial
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
+git clone https://github.com/kenzok8/openwrt-packages.git  package/openwrt-packages
+git clone https://github.com/kenzok8/small.git  package/openwrt-small
 
 
 sed -i 's/1.14/1.15/g' feeds/packages/lang/golang/golang/Makefile
