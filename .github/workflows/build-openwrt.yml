@@ -13,11 +13,11 @@ on:
 #    - cron: 0 3 * * *
   release:
      types: published
-  push:
-    branches:
-      - main
-    paths:
-      - '.config'
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - '.config'
 
   watch:
     types: started
@@ -27,7 +27,7 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_SH: diy.sh
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
